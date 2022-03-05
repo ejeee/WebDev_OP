@@ -20,7 +20,9 @@ h2 {
 }
 
 p {
-  color: #454545;
+  color: #555;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 .portrait-img {
@@ -36,7 +38,7 @@ p {
 }
 
 .p-container {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .btn {
@@ -79,4 +81,5 @@ footer {
 .footer-p {
   color: #efefef;
   margin: 7px;
+  text-align: center;
 }
