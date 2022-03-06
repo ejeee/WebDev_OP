@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 248, 250);
+}
+
+a {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h4 {
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.container {
+  border: 5px solid black;
+  box-shadow: 4px 3px rgb(174, 253, 164), -4px -3px rgb(184, 241, 237);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  width: 100%;
+}
+
+/* biography */
+
+.portrait-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid black;
+  box-shadow: 5px 5px #5f5f5f;
+}
+
+/* Skills */
+.fas {
+  font-size: 2.5rem;
+  columns: #ccc;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 10px;
+}
+
+.card {
+  padding: 20px;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+
+.bg-red:hover {
+  border-color: #3e3e3e;
+  background-color: rgb(238, 143, 143);
+}
+
+.bg-green:hover {
+  border-color: #3e3e3e;
+  background-color: rgb(188, 248, 188);
+}
+
+.bg-blue:hover {
+  border-color: #3e3e3e;
+  background-color: rgb(167, 167, 240);
+}
+
+.icon-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bars-container {
+  margin-top: 20px;
+}
+
+.w3-light-grey {
+  width: 60%;
+  height: 12px;
+  background-color: #c7c2c2;
+  border-radius: 10px;
+}
+
+.w3-red {
+  background-color: rgb(238, 143, 143);
+  width: 60%;
+  height: 12px;
+  border-radius: 10px;
+}
+
+.w3-green {
+  background-color: rgb(174, 253, 164);
+  width: 30%;
+  height: 12px;
+  border-radius: 10px;
+}
+
+.w3-blue {
+  background-color: rgb(179, 255, 255);
+  width: 70%;
+  height: 12px;
+  border-radius: 10px;
+}
+
+/* About */
+.about-text-container {
+  display: flex;
+  gap: 20px;
+}
+.about-text {
+  max-width: 350px;
+}
+
+/* Contacts */
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.links-icon {
+  font-size: 2.5rem;
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+}
+
+.links-icon:hover {
+  color: rgb(45, 161, 207);
+  transform: translateY(-10%);
+}
+
+/* Breakpoint */
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    border-width: 3px;
+  }
+  /* biography */
+
+  .portrait-img {
+    width: 130px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 10px;
+  }
+  /* Biodata */
+  td {
+    font-size: 0.8rem;
+  }
+  /* Skills */
+  .card-container {
+    grid-template-columns: 240px;
+  }
+  .w3-light-grey {
+    width: 100%;
+  }
+  /* About */
+  .about-text-container {
+    flex-direction: column;
+  }
+  .bars-container {
+    margin-bottom: 40px;
+  }
+}
