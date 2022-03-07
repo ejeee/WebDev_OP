@@ -15,7 +15,8 @@ a {
 }
 
 h1 {
-  font-weight: 800;
+  font-weight: bold;
+  font-size: 2.7rem;
 }
 
 h4 {
@@ -170,6 +171,13 @@ p {
   .container {
     border-width: 3px;
   }
+  h1 {
+    font-size: 2.5rem;
+  }
+  /* Skills */
+  .card-container {
+    grid-template-columns: repeat(2, 240px);
+  }
   /* biography */
 
   .portrait-img {
@@ -180,7 +188,7 @@ p {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container {
     padding: 10px;
