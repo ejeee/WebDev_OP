@@ -31,7 +31,7 @@ p {
 
 .container {
   border: 5px solid black;
-  box-shadow: 4px 3px rgb(174, 253, 164), -4px -3px rgb(184, 241, 237);
+  box-shadow: 6px 6px rgb(174, 253, 164), -6px -6px rgb(184, 241, 237);
   border-radius: 20px;
   padding: 20px;
   display: flex;
