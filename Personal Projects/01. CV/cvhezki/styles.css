@@ -54,6 +54,7 @@ p {
   object-fit: cover;
   object-position: center;
   border: 2px solid black;
+  border-radius: 10px;
   box-shadow: 0 0 #3b3b3b;
   transform: translateX(0) translateY(0);
   cursor: pointer;
@@ -61,7 +62,7 @@ p {
 }
 
 .portrait-img:hover {
-  box-shadow: 5px 5px #3b3b3b;
+  box-shadow: 5px 5px #696969;
   transform: translateX(-5px) translateY(-5px);
 }
 
