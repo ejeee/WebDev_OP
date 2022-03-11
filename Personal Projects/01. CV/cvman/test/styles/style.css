@@ -12,6 +12,7 @@ h1 {
   color: rgb(71, 224, 71);
   text-shadow: 1px 1px 2px red;
   font-size: 3rem;
+  text-align: center;
 }
 
 .portrait-img {
