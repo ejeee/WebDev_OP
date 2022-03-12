@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-box {
+  background-color: red;
+}
+
+.blue-box {
+  background-color: blue;
+}
+
+.green-box {
+  background-color: green;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*position: relative, absolute, static, fixed */
+/*displays: inline, inline-block, block */
+/*
+perbedaan displays:
+block vs inline-block
+block - gabisa sejajar
+inline-block - bisa sejajar
+
+inline-block vs inline
+inline-block - ukuran bisa diatur
+inline - ukuran tidak bisa diatur
+
+inline vs block
+inline - bisa sejajar, ukuran tidak bisa diatur
+block  - tidak bisa sejajar, ukuran bisa diatur
+
+*/
